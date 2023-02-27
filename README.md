@@ -103,6 +103,12 @@ Clone this repository to your desired folder:
 - Twitter: [@MohamedHNoor](https://twitter.com/MohamedHNoor)
 - LinkedIn: [@MohamedHNoor](https://www.linkedin.com/in/mohamedhnoor/)
 
+👤 **Samuel Kyere**
+- GitHub: [@admirerbrown](https://github.com/admirerbrown)
+- Twitter: [@admirerbrown](https://twitter.com/brown_admirer)
+- LinkedIn: [@samuelkyere](https://www.linkedin.com/in/samuel-ntow-kyere/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
