@@ -6,9 +6,7 @@ CREATE TABLE medical_histories (
   patient_id INTEGER,
   status VARCHAR(150),
   PRIMARY KEY (id),
-  FOREIGN KEY (patient_id) REFERENCES patients(id) ON DELETE CASCADE
   FOREIGN KEY (invoice_id) REFERENCES invoices(id) ON DELETE CASCADE
-  FOREIGN KEY (treatment_id) REFERENCES treatments(id) ON DELETE CASCADE
 );
 
 CREATE TABLE patients (
@@ -58,4 +56,6 @@ CREATE TABLE medical_treatment (
 CREATE INDEX medical_histories_patient_idx ON medical_histories(patient_id);
 CREATE INDEX invoices_medical_histories_idx ON invoices(medical_history_id);
 CREATE INDEX invoice_items_invoices_idx ON invoice_items(invoice_id);
-
+CREATE INDEX invoice_items_treatment_idx ON invoice_items(treatment_id);
+CREATE INDEX medical_histories_treatment_medical_treatment_idx ON medical_treatment(medical_history_id);
+CREATE INDEX medical_treatment_treatment_idx ON medical_treatment(treatment_id);
