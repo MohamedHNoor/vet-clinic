@@ -45,3 +45,17 @@ CREATE TABLE invoices (
   medical_history_id INTEGER,
   PRIMARY KEY (id),
 );
+
+-- helper table for many to many
+CREATE TABLE medical_treatment (
+  medical_history_id INTEGER,
+  treatment_id INTEGER,
+  PRIMARY KEY (medical_history_id, treatment_id ),
+  FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id) ON DELETE CASCADE,
+  FOREIGN KEY (treatment_id) REFERENCES treatments(id) ON DELETE CASCADE
+);
+
+CREATE INDEX medical_histories_patient_idx ON medical_histories(patient_id);
+CREATE INDEX invoices_medical_histories_idx ON invoices(medical_history_id);
+CREATE INDEX invoice_items_invoices_idx ON invoice_items(invoice_id);
+
