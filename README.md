@@ -28,6 +28,7 @@ After you're finished please remove all the comments and instructions!
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Vet-Clinic\] ](#-vet-clinic-)
+  - [Vet_clinic Schema Diagram:](#vet_clinic-schema-diagram)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -47,6 +48,10 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Vet-Clinic] <a name="about-project"></a>
 
 **Vet Clinic** database is a relational database typed by Structured Query Language 'SQL' using PostgresQL, and it provides the required data to create the data structure for a vet-clinic wep app.
+
+## Vet_clinic Schema Diagram:
+
+<img src="./vet_clinic.JPG" alt="vet_clinic database diagram"/>
 
 ## 🛠 Built With <a name="built-with"></a>
 
