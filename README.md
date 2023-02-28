@@ -28,9 +28,11 @@ After you're finished please remove all the comments and instructions!
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Vet-Clinic\] ](#-vet-clinic-)
+  - [Vet_clinic Schema Diagram:](#vet_clinic-schema-diagram)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -46,6 +48,10 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Vet-Clinic] <a name="about-project"></a>
 
 **Vet Clinic** database is a relational database typed by Structured Query Language 'SQL' using PostgresQL, and it provides the required data to create the data structure for a vet-clinic wep app.
+
+## Vet_clinic Schema Diagram:
+
+<img src="./vet_clinic.JPG" alt="vet_clinic database diagram"/>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,6 +71,14 @@ After you're finished please remove all the comments and instructions!
 - **[create animals table]**
 - **[database performance audit]**
 - **[add database schema diagram]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link - Not yet available](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,18 +118,16 @@ Clone this repository to your desired folder:
 - LinkedIn: [@MohamedHNoor](https://www.linkedin.com/in/mohamedhnoor/)
 
 👤 **Samuel Kyere**
+
 - GitHub: [@admirerbrown](https://github.com/admirerbrown)
 - Twitter: [@admirerbrown](https://twitter.com/brown_admirer)
 - LinkedIn: [@samuelkyere](https://www.linkedin.com/in/samuel-ntow-kyere/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[query and update animals table]**
 - [ ] **[query multiple tables]**
