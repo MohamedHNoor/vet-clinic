@@ -28,6 +28,7 @@ After you're finished please remove all the comments and instructions!
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Vet-Clinic\] ](#-vet-clinic-)
+  - [Schema Diagram:](#schema-diagram)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -46,6 +47,10 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Vet-Clinic] <a name="about-project"></a>
 
 **Vet Clinic** database is a relational database typed by Structured Query Language 'SQL' using PostgresQL, and it provides the required data to create the data structure for a vet-clinic wep app.
+
+## Schema Diagram:
+
+<img src="./vet_clinic-diagram.JPG" alt="vet_clinic database diagram"/>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -104,10 +109,10 @@ Clone this repository to your desired folder:
 - LinkedIn: [@MohamedHNoor](https://www.linkedin.com/in/mohamedhnoor/)
 
 👤 **Samuel Kyere**
+
 - GitHub: [@admirerbrown](https://github.com/admirerbrown)
 - Twitter: [@admirerbrown](https://twitter.com/brown_admirer)
 - LinkedIn: [@samuelkyere](https://www.linkedin.com/in/samuel-ntow-kyere/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
